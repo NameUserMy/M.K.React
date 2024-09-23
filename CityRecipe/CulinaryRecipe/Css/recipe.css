@@ -1,0 +1,118 @@
+.recipe{
+
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 100%;
+    gap: 10px;
+    margin: auto;
+
+}
+
+.item{
+    height: 150px;
+    display: grid;
+    grid-template-columns:.5fr .5fr ;
+
+}
+
+.info{
+
+    text-align: left;
+    align-items: center;
+    padding-top: 3%;
+}
+
+.item1{
+    height: fit-content;
+    display: grid;
+    grid-template-columns:.5fr 1fr ;
+    grid-template-rows:.5fr 1fr 1fr;
+    column-gap: 2%;
+
+}
+
+.title{
+
+grid-column-start: 1;
+grid-column-end: 4;
+
+}
+
+.info-start{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    text-align: left;
+    padding-right: 1%;
+
+}
+
+.products{
+
+    display: flex;
+    flex-direction: column;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.start-img{
+    background-image: url(../ImgScr/start.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.img{
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+.url1{
+    background-image: url(../ImgScr/1step.jpg);
+}
+
+.url2{
+    background-image: url(../ImgScr/2step.jpg);
+}
+.url3{
+    background-image: url(../ImgScr/3step.jpg);
+}
+.url4{
+    background-image: url(../ImgScr/4step.jpg);
+}
+
+.url5{
+    background-image: url(../ImgScr/5step.jpg);
+}
+
+.url6{
+    background-image: url(../ImgScr/6step.jpg);
+}
+
+.url7{
+    background-image: url(../ImgScr/7step.jpg);
+}
+
+.url8{
+    background-image: url(../ImgScr/8step.jpg);
+}
+
+.url9{
+    background-image: url(../ImgScr/9step.jpg);
+}
+
+.url10{
+    background-image: url(../ImgScr/10step.jpg);
+}
+
+.url11{
+    background-image: url(../ImgScr/11step.jpg);
+}
+
+.url12{
+    background-image: url(../ImgScr/12step.jpg);
+}
+.url13{
+    background-image: url(../ImgScr/13step.jpg);
+}
