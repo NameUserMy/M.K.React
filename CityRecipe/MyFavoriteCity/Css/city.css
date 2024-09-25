@@ -34,7 +34,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(/MyFavoriteCity/ImgScr/odessa_mayak.webp);
+    background-image: url(../ImgScr/odessa_mayak.webp);
     border-radius: 10px;
 }
 
@@ -43,7 +43,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(/MyFavoriteCity/ImgScr/potemkinskaya_lestnitsa.webp);
+    background-image: url(../ImgScr/potemkinskaya_lestnitsa.webp);
     border-radius: 10px;
 }
 
@@ -52,6 +52,6 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(/MyFavoriteCity/ImgScr/vorontsovskiy_dvorets.webp);
+    background-image: url(../ImgScr/vorontsovskiy_dvorets.webp);
     border-radius: 10px;
 }
