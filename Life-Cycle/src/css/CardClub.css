@@ -1,0 +1,99 @@
+.card {
+
+    display: grid;
+
+    grid-template-rows: .1fr 0.5fr 0.4fr;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 3%;
+  
+    height: 70%;
+    width: 80%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.position {
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.title {
+    text-align: center;
+}
+
+
+
+
+
+
+#hort-info {
+    display: grid;
+    height: 100%;
+    grid-template-rows: 150px repeat(6, .2fr);
+    grid-template-columns: .5fr 1fr;
+    row-gap: 3%;
+    padding-left: 1%;
+
+
+}
+
+
+#goblet {
+    display: grid;
+    row-gap: 3%;
+    height: 100%;
+    grid-template-rows:1fr  repeat(6, 0.2fr);
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+#teams {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100%;
+    
+    row-gap: 1%;
+    column-gap: 2%;
+   
+}
+
+.player{
+
+    display: grid;
+    grid-template-rows:1fr;
+    grid-template-columns: repeat(3, 1fr);
+    box-shadow: 1px 1px 2px dimgrey;
+    padding-left: 1%;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+.anatation {
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+
+}
+
+.img {
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
