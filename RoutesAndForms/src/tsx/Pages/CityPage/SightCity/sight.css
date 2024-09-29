@@ -1,0 +1,81 @@
+#sightMain {
+
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 100%;
+    box-shadow: 1px 1px 2px dimgrey;
+    border-radius: 5px;
+
+}
+
+#imgSight {
+
+
+   
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    border-radius: 25px;
+    box-shadow: 1px 1px 2px black;
+    margin: 2%;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
+}
+
+#infoSight {
+    padding: 1%;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+#forvard {
+
+    --width-my:7%;
+    --height-my:15%;
+    width: var(--width-my);
+    height: var(--height-my);
+   
+    position: absolute;
+    font-size: 3em;
+    color: dimgrey;
+    text-shadow: 1px 1px 2px black;
+    top: calc(50% - var(--height-my)/2);
+    right: calc(-5px - var(--width-my));
+    transition-property: all;
+    transition-duration: 500ms;
+    user-select: none;
+    cursor: pointer;
+    
+}
+
+#forvard:hover{
+
+    font-size: 4em;
+
+}
+
+#back {
+    --width-back:7%;
+    --height-back:15%;
+    width: var(--width-back);
+    height: var(--height-back);
+    top: calc(50% - var(--height-back)/2);
+    left: calc(-10px - var(--width-back));
+    font-size: 3em;
+    color: dimgrey;
+    text-shadow: 1px 1px 2px black;
+    position: absolute;
+    transition-property: all;
+    transition-duration: 500ms;
+    user-select: none;
+    cursor: pointer;
+}
+
+#back:hover{
+
+    font-size: 4em;
+
+}

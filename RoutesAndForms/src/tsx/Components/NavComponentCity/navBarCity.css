@@ -1,0 +1,40 @@
+#navBar {
+
+    --height-vav: 15%;
+    /*local varable*/
+    --width-nav: 20%;
+    
+    width: var(--width-nav);
+    height: var(--height-vav);
+    position: absolute;
+    left: calc(-10px - var(--width-nav));
+    top: calc(50% - var(--height-vav)/2);
+}
+
+dt {
+    
+    border: solid 1px black;
+    margin: 1%;
+    padding-left: 1%;
+    padding: 2%;
+    border-radius: 5px;
+    transition-property: all;
+    transition-duration: 500ms;
+    font-size: 1.1em;
+    font-weight: 600;
+    box-shadow: 1px 1px 2px dimgrey, -1px -1px 2px dimgrey;
+
+}
+
+dt:hover {
+
+    margin: 0%;
+    padding: 5%;
+    text-shadow: 2px 2px 3px black;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

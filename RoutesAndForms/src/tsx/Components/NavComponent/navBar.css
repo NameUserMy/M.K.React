@@ -1,0 +1,9 @@
+#nav-Header {
+
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}

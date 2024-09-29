@@ -1,0 +1,7 @@
+#info {
+    --width-info: 100%;
+    width: var(--width-info);
+    height: 100%;
+    position: relative;
+}
+
