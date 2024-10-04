@@ -1,0 +1,13 @@
+#magic-ball{
+
+margin-top: 5%;
+  width: 100%;
+  height: 100%;
+  box-shadow: 1px 1px 2px dimgrey;
+  border-radius: 10px;
+
+}
+
+Canvas{
+  border-radius: 10px;
+}

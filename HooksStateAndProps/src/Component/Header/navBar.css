@@ -1,0 +1,17 @@
+#nav-Header {
+
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: orange;
+    text-shadow: 1px 1px 2px dimgrey;
+}
