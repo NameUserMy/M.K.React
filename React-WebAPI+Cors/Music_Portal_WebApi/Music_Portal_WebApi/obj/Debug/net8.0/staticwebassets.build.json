@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "5giuicOmuHMvTQi0EF/qrLKKceRtjNJcaIZnukLns1A=",
+  "Source": "Music_Portal_WebApi",
+  "BasePath": "_content/Music_Portal_WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Music_Portal_WebApi\\wwwroot",
+      "Source": "Music_Portal_WebApi",
+      "ContentRoot": "C:\\Users\\Work_Man\\Desktop\\CORS\\Music_Portal_WebApi\\Music_Portal_WebApi\\wwwroot\\",
+      "BasePath": "_content/Music_Portal_WebApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Work_Man\\Desktop\\CORS\\Music_Portal_WebApi\\Music_Portal_WebApi\\wwwroot\\Music\\Pop\\PopTest\\Harley-Daidsot.mp3",
+      "SourceId": "Music_Portal_WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Work_Man\\Desktop\\CORS\\Music_Portal_WebApi\\Music_Portal_WebApi\\wwwroot\\",
+      "BasePath": "_content/Music_Portal_WebApi",
+      "RelativePath": "Music/Pop/PopTest/Harley-Daidsot.mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Music\\Pop\\PopTest\\Harley-Daidsot.mp3"
+    },
+    {
+      "Identity": "C:\\Users\\Work_Man\\Desktop\\CORS\\Music_Portal_WebApi\\Music_Portal_WebApi\\wwwroot\\Music\\Rock\\AC-DC\\Harley-Daidsot.mp3",
+      "SourceId": "Music_Portal_WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Work_Man\\Desktop\\CORS\\Music_Portal_WebApi\\Music_Portal_WebApi\\wwwroot\\",
+      "BasePath": "_content/Music_Portal_WebApi",
+      "RelativePath": "Music/Rock/AC-DC/Harley-Daidsot.mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Music\\Rock\\AC-DC\\Harley-Daidsot.mp3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Work_Man\\Desktop\\CORS\\Music_Portal_WebApi\\Music_Portal_WebApi\\wwwroot\\Music\\Pop\\PopTest\\Harley-Daidsot.mp3",
+      "PackagePath": "staticwebassets\\Music\\Pop\\PopTest\\Harley-Daidsot.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Work_Man\\Desktop\\CORS\\Music_Portal_WebApi\\Music_Portal_WebApi\\wwwroot\\Music\\Rock\\AC-DC\\Harley-Daidsot.mp3",
+      "PackagePath": "staticwebassets\\Music\\Rock\\AC-DC\\Harley-Daidsot.mp3"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Music_Portal_WebApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Music_Portal_WebApi.props",
+      "PackagePath": "build\\Music_Portal_WebApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Music_Portal_WebApi.props",
+      "PackagePath": "buildMultiTargeting\\Music_Portal_WebApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Music_Portal_WebApi.props",
+      "PackagePath": "buildTransitive\\Music_Portal_WebApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

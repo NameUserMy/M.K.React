@@ -1,0 +1,85 @@
+.users-confirm-form {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2%;
+}
+
+.solodBorder {
+    border: 1px solid orange;
+
+}
+
+#user-confirm-contener {
+    display: grid;
+    grid-template-areas:
+        'unconfirm confirm';
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1%;
+    margin: 1%;
+}
+
+.itemConfirm {
+    display: grid;
+    grid-area: confirm;
+    row-gap: 1.5%;
+    grid-template-rows: repeat(16, 1fr);
+
+
+}
+
+.itemUnconfirm {
+    display: grid;
+    grid-area: unconfirm;
+    row-gap: 1.5%;
+    grid-template-rows: repeat(16, 1fr);
+
+}
+
+
+
+.nick-name{
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    align-content: center;
+    box-shadow: 1px -0.5px 5px black ;
+    user-select: none;
+}
+
+.confirm-button{
+
+    border-top-left-radius: 10px;
+    text-align: center;
+    align-content: center;
+    box-shadow: 1px -0.5px 5px black ;
+    border-bottom-right-radius:0px;
+    user-select: none;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 1500ms;
+}
+.confirm-button:hover{
+
+    box-shadow: 1px -0.5px 5px forestgreen ;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 10px;
+}
+.delete-button{
+
+    border-bottom-right-radius: 10px;
+    box-shadow: 1px -0.5px 5px black;
+    border-top-left-radius:0px;
+    text-align: center;
+    align-content: center;
+    user-select: none;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 1500ms;
+}
+.delete-button:hover{
+
+    box-shadow: 1px -0.5px 5px rgba(255,0,0,0.8) ;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 10px;
+}

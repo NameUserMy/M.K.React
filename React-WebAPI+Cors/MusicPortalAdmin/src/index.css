@@ -1,0 +1,60 @@
+html, body {
+    height: 100%;
+    align-content: center;
+    margin: 0;
+   
+}
+.mainPortal {
+    display: grid;
+    height: 98%;
+    width: 90%;
+    grid-template-rows: .1fr 1fr .1fr;
+    grid-template-columns: .2fr 1fr;
+    grid-template-areas:
+        'header header'
+        'menu content'
+        'fotter fotter';
+   row-gap: 10px;
+   column-gap: 10px;
+   margin-left: auto;
+   margin-right: auto;
+
+   
+}
+
+.item1 {
+    grid-area: header;
+    
+}
+.item2 {
+    grid-area: menu;
+   
+   
+    
+}
+.item3 {
+    display:grid;
+    grid-area: content;
+}
+
+.item4 {
+    grid-area: fotter;
+    
+}
+
+select {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+option {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+
+.boxShadow {
+    box-shadow: 3px 3px 10px black, -3px -3px 10px black;
+}
